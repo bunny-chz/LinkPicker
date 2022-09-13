@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">链接提取器</string>
+    <string name="et_Hint">请粘贴分享链接</string>
+    <string name="parse_ShareLinkText">提取</string>
+    <string name="clear_text">清除</string>
+    <string name="QSTile_Label">链接提取</string>
+    <string name="tip">点击蓝字复制到剪贴板，长按浏览器访问(窗口变化就会自动提取最新的剪切板链接)</string>
+</resources>

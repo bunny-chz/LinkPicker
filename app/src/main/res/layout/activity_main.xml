@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ShareLinkText"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:minLines="5"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/edit_text_shape"
+        android:textColor="#000000"
+        android:hint="@string/et_Hint"
+        android:textColorHint="#AEA8A8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/clear_text"
+            android:textSize="20sp"
+            app:backgroundTint="#00E1FF" />
+
+        <Button
+            android:id="@+id/parse_ShareLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/parse_ShareLinkText"
+            android:textSize="20sp"
+            app:backgroundTint="#258AF6" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="14sp"
+        android:text="@string/tip"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/parse_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#186DFF"
+            android:textSize="20sp"
+            />
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
